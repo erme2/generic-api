@@ -1,5 +1,3 @@
-# Rico
+# Generic-API
 
-![Rico](public/images/rico.jpg)
-
-An api system to play with [Kowalsky](https://github.com/erme2/kowalsky/)
+An wide scope api system built on a behavioural pattern
