@@ -11,7 +11,7 @@ while getopts ":b:" opt
 done
 
 docker image build --build-arg BRANCH=$GIT_BRANCH --no-cache -t $REPO_NAME:latest .
-docker run -d -p 8000:80 --name $CONTAINER_NAME $REPO_NAME
+docker run -d -p 80:8000 --name $CONTAINER_NAME $REPO_NAME
 
 if [ ${RUN_BASH} = "yes" ]
 then
